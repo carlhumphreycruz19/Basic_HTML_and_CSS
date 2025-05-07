@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <h1>game of thrones table</h1>
+        <table style="width:100%">
+            <tr>
+                <th>Name</th>
+                <th>Phone number</th>
+                <th>email</th>
+                <th>notes</th>
+            </tr>
+            <tr>
+                <td>Jon Snow</td>
+                <td>50323443966</td>
+                <td>winterishere@north.com</td>
+                <td>king of the north</td>
+            </tr>
+            <tr>
+                <td>Daenerys targaryen</td>
+                <td>9712343966</td>
+                <td>motherdragon@ironthrone.com</td>
+                <td>the mad queen</td>
+            </tr>
+        </table>
+    </body>
+    table{
+        border:1px solid silver;
+    }
+    td:hover{
+        background-color:lightblue;
+        color:white;    
+    }
+    tr,td{
+        background-color:lightgrey;
+        color:black;            
+    }
+    <link rel=""sytleheet"type="text/css"href="css_table.css">
+    </html>
